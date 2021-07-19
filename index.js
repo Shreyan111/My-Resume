@@ -28,7 +28,7 @@ var wow = new WOW(
 //   }
 // }
 
-import { firebaseConfig } from './config.js';
+import { firebaseConfig } from '../Dir1/config.js';
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
