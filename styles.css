@@ -1,0 +1,516 @@
+html,body
+{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+	background-color: #F5F5F5;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 10px;       /* roundness of the scroll thumb */
+}
+.topic{
+	padding: 0 0 0 20px;
+	color: #ffffff;
+}
+.arrow_class {
+  padding-bottom: 15px;
+}
+.arrow1{
+	padding-top: 43px;
+}
+.header{
+	background-color: #6c4cfc;
+	margin:0;
+	padding: 0;
+  overflow: hidden;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header2{
+	margin-top: 100px;
+	padding-left: 120px;
+}
+.Line1{
+	color: #ffffff;
+	font-size: 45px;
+}
+.Line2{
+	color: #ffffff;
+	margin-top: 30px;
+	font-size: 24px;
+}
+.Image1{
+	margin-left: 30px;
+}
+.button1{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.nav{
+	padding: 0 20px 0 0;
+}
+.h1,.h2,.h3,.h4,.h5,.h6,.p {
+font-family: sans-serif;
+}
+.image3{
+  height: 400px;
+}
+.image4{
+  height: 350px;
+}
+.service-2 {
+  background: #ffe5e5;
+  padding: 40px 0px;
+ }
+ .header3{
+ 	padding-left: 20px;
+ 	margin-top: 25px;
+ }
+ .arrow1{
+ 	padding-top: 30px;
+ }
+ .Line3, .Line4, .Line5{
+  text-align: center;
+  align-content: center;
+	justify-items: center;
+ }
+.Line6{
+	padding: 30px 0 0 20px;
+}
+.Line7{
+	padding: 40px 0 0 20px;
+}
+.Line8{
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+ .service-2 .border-left, .service-2 .border-right{
+ 	border-color: #e5c5c5 !important;
+ }
+ .border-left{
+ 	border-left: 1px solid #dee2e6!important;
+ }
+ .border-right{
+ 	border-right: 1px solid #dee2e6!important;
+ }
+ .row1{
+ 	margin-bottom: 30px;
+ }
+ .col{
+ 	padding-left: 40px;
+ }
+ .submit{
+ 	margin-left: 150px;
+ 	padding-right: 10px;
+ }
+ .checkbox{
+ 	margin-right: 375px;
+ }
+ .header5{
+ 	margin-top: 50px;
+ }
+ .Line9{
+ 	padding-left: 50px;
+ 	margin-bottom: 20px;
+ }
+ .Line10{
+ 	padding-left: 50px;
+ }
+ .time{
+   color: #ffffff;
+   font-size: 30px;
+   font-weight: 800px;
+   text-align: center;
+   margin: 20px 0 20px 0;
+ }
+ .top{
+ 	margin-top: 75px;
+ }
+ .mid{
+ 	margin-top: 100px;
+ }
+ .bot{
+ 	margin-top: 100px;
+ 	margin-bottom: 50px;
+ }
+ .signup{
+   justify-content: center;
+   margin-bottom: 20px;
+ }
+ .up, .down, .vdown{
+  padding-left: 130px;
+ }
+ .part1, .part2, .part3, .part4{
+   width: 75%;
+   justify-content: center;
+   align-content: center;
+ }
+ .part5{
+   width: 88%;
+   height: 180px;
+ }
+ .site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.instagram:hover
+{
+  background-color:#ea4c89
+}
+* {
+  box-sizing: border-box;
+}
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: red;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  margin-bottom: 5px;
+}
+
+/* Container around content */
+.info {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.info::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+  margin-left: 4px;
+  margin-top: 10px;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+    .timeline::after {
+      left: 31px;
+    }
+    .info {
+      padding: 10px 40px;
+      position: relative;
+      background-color: inherit;
+      width: 100%;
+    }
+    .left::before{
+      display: none;
+    }
+    .info::after{
+      margin-left: 0px;
+    }
+    .timeline::after{
+      margin-left: 5px;
+    }
+  /* Full-width containers */
+    .container {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+  /* Make sure that all arrows are pointing leftwards */
+    .container::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+  
+  /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+      left: 15px;
+    }
+  
+  /* Make all right containers behave like the left ones */
+    .right {
+      left: 0%;
+    }
+  }
+.header6{
+  background-image: url("./Assets/parallax.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.up,.down,.vdown{
+  margin-bottom: 30px;
+}
+.header4{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+@media (min-width:375px) and (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+@media only screen and (max-width: 995px){
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+  .About, .Works, .Hobbies, .Contact{
+    margin-left: 20px;
+  }
+  .Line3, .Line4, .Line5{
+    padding-bottom: 20px;
+  }
+  .Line1{
+    font-size: 34px;
+  }
+  .Line2{
+    font-size: 25px;
+  }
+  .para1, .para2, .para3{
+    padding-bottom: 20px;
+  }
+  .image2{
+    padding-top: 30px;
+  }
+  .image3{
+    display: none;
+  }
+  .firstpara{
+    margin-left: 20px;
+  }
+  .Image1{
+    margin-left: 0px;
+  }
+  .fname, .lname, .phone, .email{
+    margin-bottom: 25px;
+  }
+}
+@media (min-width:375px) and (max-width:500px)
+{
+  .Image1{
+    margin-left: 0px;
+    float: right;
+  }
+  .up, .down, .vdown{
+    padding-left: 40px;
+   }
+}
