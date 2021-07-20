@@ -28,7 +28,14 @@ var wow = new WOW(
 //   }
 // }
 
-import { firebaseConfig } from '../Dir1/config.js';
+var auth = firebaseConfig.authDomain;
+var key = firebaseConfig.apiKey;
+var data = firebaseConfig.databaseURL;
+var project = firebaseConfig.projectId;
+var storage = firebaseConfig.storageBucket;
+var sender = firebaseConfig.messagingSenderId;
+var app = firebaseConfig.appId;
+var measurement = firebaseConfig.measurementId;
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
